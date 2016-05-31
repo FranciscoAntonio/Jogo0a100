@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite seu Nome:"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTexto"
+
+        android:hint="Digite seu nome" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Jogo"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="IniciarJogo" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="ranking"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Ranking" />
+
+</LinearLayout>
